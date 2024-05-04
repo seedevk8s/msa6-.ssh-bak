@@ -1,0 +1,18 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+# Host labserver
+#     HostName localhost
+#     User user1
+#     Port 22
+#     IdentityFile C:\Users\HPE\.ssh\id_rsa
+
+# Host ftgoserver
+#     HostName localhost
+#     User user1
+#     Port 23
+#     IdentityFile C:\Users\HPE\.ssh\id_rsa    
+Host department-service
+    HostName localhost
+    User user1
+    Port 22
+    IdentityFile C:\Users\HPE\.ssh\id_rsa
+
